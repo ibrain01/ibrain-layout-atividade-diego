@@ -1,0 +1,33 @@
+header{
+    font-family: sans-serif;
+    height: auto;
+    width: auto;
+    box-shadow: 2px 2px 3px 3px;
+    color:rgb(179, 179, 179);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 8px;
+    align-items: center;
+    
+}
+img{
+    width: 150px;
+    height: 60px;
+    max-width: 100%;
+    margin-left: 8px;
+}
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+
+}
+.navbar ul li {
+    display: inline;
+    margin-right: 20px;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: rgb(104, 104, 104);
+}
